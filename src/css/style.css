@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Antarctican Headline Bold";
+    src: url(../fonts/AntarcticanHeadline-Bold.ttf);
+}
+@font-face {
+    font-family: "Antarctican Headline Semibold";
+    src: url(../fonts/AntarcticanHeadline-Semibold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 150px 380px;
+    width: 1200px;
+    height: 650px;
+    background-color: #ffcc19;
+    padding-top: 30px;
+    border-radius: 20px;
+    background-image: url(/src/img/formContent/SecretSauce.gif),url(/src/img/formContent/TopDog.gif);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: 0 80px, 890px 235px;
+}
+.form h2{
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 60px;
+    color: #26282d;
+    font-family: "Antarctican Headline Bold"
+}
+.form h3{
+    padding-top: 5px;
+    font-size: 21px;
+    color: #26282d;
+    font-family: "Antarctican Headline Bold"
+}
+.form {
+  padding-top: 40px;
+  max-width: 550px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffcc19;
+  font-family: "Antarctican Headline Semibold"
+}
+.form-content {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.form-content label {
+  padding-top: 15px;
+  cursor: pointer;
+  font-size: 21px;
+  font-weight: 400;
+}
+.form-content input {
+  width: 100%;
+  height: 40px;
+  padding: 8px;
+  margin: 0px 0;
+  border: 0px solid #ccc;
+  border-radius: 5px;
+}
+.form-content button{
+    height: 45px;
+    text-align: center;
+    width: 25%;
+    border: 20px;
+    margin: 8px auto;
+    background-color: black;
+    color: #ffcc19;
+    transition: all .3s;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Antarctican Headline Bold";
+    border-radius: 7px;
+}
+button:hover {
+    background-color: white;
+    font-weight: bolder;
+    color: black;
+    transform: translatey(-6px);
+}
